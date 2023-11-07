@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InheritanceApp
 {
-	public abstract class House
+	public class House
 	{
 		public int SquareMeters { get; private set; }
 		public int Year { get; set; }

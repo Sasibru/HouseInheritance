@@ -2,10 +2,15 @@
 {
 	internal class Program
 	{
-		static void Main(string[] args)
+		static void Main()
 		{
-			House tinyHouse = new(50);
-            Console.WriteLine(tinyHouse.GetPricePerSqrMeters(120000));
+			List<House> houseList = new()
+			{
+				new House(420),
+				new House(120),
+				new Skyscraper(64000, 3, "green")
+			};
+
         }
 	}
 }
