@@ -9,7 +9,7 @@ namespace InheritanceApp
 	public class Skyscraper : House
 	{
 		public int Floors {  get; set; }
-		public Skyscraper(int squareMeters, int year, string color) : base(squareMeters, year, color)
+		public Skyscraper(int squareMeters, int year = 0, string color = "Unknown Color") : base(squareMeters, year, color)
 		{
 			Floors = 15;
 		}

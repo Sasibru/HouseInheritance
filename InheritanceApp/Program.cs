@@ -8,7 +8,7 @@
 			{
 				new House(420),
 				new House(120),
-				new Skyscraper(64000, 3, "green")
+				new Skyscraper(64000, 0, "green")
 			};
 
 			foreach (House house in houseList)
