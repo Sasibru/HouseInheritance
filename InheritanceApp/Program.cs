@@ -11,6 +11,13 @@
 				new Skyscraper(64000, 3, "green")
 			};
 
+			foreach (House house in houseList)
+			{
+                Console.WriteLine(house.ContentAsString());
+            }
+
+			int sqrMetersSum = houseList.Sum(x => x.GetSquareMeters());
+            Console.WriteLine(sqrMetersSum);
         }
 	}
 }

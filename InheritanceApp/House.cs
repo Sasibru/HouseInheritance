@@ -42,5 +42,10 @@ namespace InheritanceApp
 			int monthlySum = price / 12;
 			return monthlySum / SquareMeters;
 		}
+
+		public virtual string ContentAsString()
+		{
+			return $"This house has {SquareMeters}m ammount of floor space.";
+		}
 	}
 }

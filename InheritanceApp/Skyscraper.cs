@@ -13,5 +13,10 @@ namespace InheritanceApp
 		{
 			Floors = 15;
 		}
+
+		public override string ContentAsString()
+		{
+			return $"This house has {SquareMeters}m ammount of floor space distrubuted over {Floors} floors.";
+		}
 	}
 }
